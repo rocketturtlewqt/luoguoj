@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GBK">
+<title></title>
+	<link rel="stylesheet" type="text/css" href="/home_2018/css/big_figure.css?v=1.0">
+<link rel="shortcut icon" href="//www.sogou.com/images/logo/new/favicon.ico?v=2">
+<link rel="Bookmark" href="//www.sogou.com/images/logo/new/favicon.ico?v=2">
+<!--[if IE 6]>       
+        <script src="/category_detail/js/DD_belatedPNG_0.0.8a.js"></script>
+        <script>
+            DD_belatedPNG.fix('.source,.download,.slide-btn-l ,.unclick-l,.slide-btn-r,.unclick-r,.item-title,.arrow-up,.hide .arrow-up,.btns-area .btn-a,.tag,.change,.tag span,.tag-add,.vedio-btn,.share-list i,.tag-on span,.add,.add-btn');
+        </script>
+  <![endif]-->
+</head>
+	<body>
+	<div class="big-figure-wrap">
+	<div class="header" id="header">
+	<a  uigs="backtohome" title="回到搜狗图片搜索首页" href="/" class="logo"><img src="/detail_2015_b/images/logo.png" alt="搜狗图片" srcset="/detail_2015_b/images/logo@2x.png 2x"></a>
+	<div class="search">
+	<form action="/pics" method="get" id="search-box1" name="searchForm" onkeydown="return true;" onsubmit="return true;">
+	<div class="query">
+	<input name="query" type="text" autocomplete="off" value="水箭龟" id="form_querytext" maxlength="100">
+	<input type="hidden" name="di" value="2">
+	<input type="hidden" name="_asf" value="pic.sogou.com"/>
+	<input type="hidden" name="w" value="05009900">
+	<a href="javascript:void(0)" title="按图片搜索" class="stswitcher" id="stswitcher"></a>
+	</div>
+	<input type="submit" class="sbtn" value="搜狗搜索" id="pic_smb">
+	</form>
+
+	<div class="identify-pop-show identify-status" id="identifyPopShow">
+	<div class="identify-pop" id="identifyPop" style="opacity:1">
+	<a class="identify-del" id="closeshitubox"><i></i></a>
+	<div class="tab-link _shituTypeTab">
+	<a href="javascript:void(0)" class="cur" data-uigs="common"><span>通用识图</span></a>
+	<a href="javascript:void(0)" data-uigs="dog"><span>猫狗识别</span></a>
+	<a href="javascript:void(0)" data-uigs="star"><span>明星识别</span></a>
+	<a href="javascript:void(0)" data-uigs="rismore"><span>找高清大图</span></a>
+	</div>
+	<p class="tips _shituTip">准确快速地检测图像中的内容信息</p>
+	<div class="figure-upload">
+	<div class="file" id="upload_pic_btn">
+	<span>本地上传</span><input type="file" name=""/>
+	<form action="/ris_upload" method="post" id="upload_pic" enctype="multipart/form-data">
+	<input name="flag" type="hidden" value="1" />
+	<input name="pic_path" type="file" id="upload_pic_file" onchange="uploadfile_change(this)" size="85" style="position: absolute; width: 100%; height: 100%; font-size: 108px; left: 0; top: 0; filter: alpha(opacity = 0); opacity: 0; z-index: 999;overflow:hidden;" />
+	</form>
+	</div>
+	<div class="identify-query">
+	<input name="query" type="text" id="url_form_query" class="figure-input" placeholder="请输入或粘贴图片地址" /><span id="url_form_sbm"><i></i></span>
+	</div>
+	</div>
+	<div class="trailing-figure _trailingTip">
+	<span>将图片拖至此处</span>
+	</div>
+	<div class="high-quality-load _uploadTip" style="display:none">
+	<span><i></i><i></i></span>正在上传文件...
+	</div>
+	</div>
+	</div>
+	</div>
+    		
+		</div>
+
+
+	<!-- 主内容区 -->
+	<div class="big-figure-box" id="main">
+	<!-- 左侧内容区 -->
+	<div class="big-figure show-figure-fixed">
+
+	<a class="screen-del"></a>
+	<div class="screen-tips" style="display:none">按<span>ESC</span>退出全屏</div>
+
+	<div class="big-figure-area">
+	<div class="show-figure" id="thumbBox">
+	<div class="circle-box" id="circleBox">
+	<a title="以图搜图" id="shituBtn" uigs="shituBtn"></a>
+		
+	</div>
+	<a href="javascript:void(0)" id="imageBox"></a>
+	<!--<span class="thmb-v"></span>-->
+	</div>
+	</div>
+	<a class="figure-pev" id="btnPgLft" ><span></span></a>
+	<a class="figure-next" id="btnPgRgt"><span></span></a>
+
+	<div class="footer-content" id="botView" style="display:none" style="bottom: 0px;">
+	<div class="toolbar">
+
+	<span class="auto-play hide" style="display:none"><a>自动播放<i class="play-ico"></i></a></span>
+	<span class="toolbar-line"></span>
+
+	<span class="show-box"><a href="JavaScript:void(0)" class="show-up" id="btnHide" title="收起导航条">收起<i></i></a></span>
+	<span class="proportion-box">
+	<a id="btnReduce" href="JavaScript:void(0)"></a>
+	<i id="btnWindowsizeTxt"></i>
+	<a id="btnMagnify" href="JavaScript:void(0)"></a>
+	</span>
+	<span><a href="JavaScript:void(0)" class="original-size" id="oriSize">原始尺寸<i></i></a></span>
+
+	<span id="saveToMobileBox">
+	<p class="toolbar-ewm" id="saveToMobile" style="display:none">
+	<!--<i class="pop-arrow"></i><span>用手机二维码扫描打开图片</span><strong><img src="../images/cd.gif"></strong><span>980 X 735 178000</span>-->
+	</p>
+	<a id="saveToMobileBtn" href="JavaScript:void(0)" class="iphone-box">扫描到手机<i></i></a>
+	</span>
+
+		
+	<span id="fullScreen">
+	<a href="JavaScript:void(0)" class="full_screen">全屏<i></i>
+	<!--<span style="outline: 0;display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;cursor: pointer;opacity: 0;-moz-opacity: 0;filter:alpha(opacity=0);">
+	<object type="application/x-shockwave-flash" id="PicDetail" name="PicDetail" align="middle" data="/flash/PicDetail/PicDetail.swf" width="50" height="31" style="margin-left:4px;">
+	<param name="movie" value="/flash/PicDetail/PicDetail.swf" />
+	<param name="quality" value="high" />
+	<param name="wmode" value="transparent" />
+	<param name="bgcolor" value="#ffffff" />
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="true" />
+	<embed id="swf_0" src="/flash/PicDetail/PicDetail.swf" width="50" height="31" quality="high" allowfullscreen="true" allowScriptAccess="sameDomain" bgcolor="#ffffff" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+	</object>
+	</span>-->
+	</a>
+	</span>
+		
+
+
+	<span><a id="saveToPc" href="JavaScript:void(0)" class="download">下载<i></i></a></span>
+	<span id="shareBox">
+	<p class="share-pop" id="shareArea" style="display:none">
+	<i class="pop-arrow"></i>
+	<a id="sinaShare" href="JavaScript:void(0)" class="vb" title="新浪微博"></a>
+	<a id="kongjianShare" href="JavaScript:void(0)" class="qq" title="QQ空间"></a>
+	<a id="renrenShare" href="JavaScript:void(0)" class="renren" title="人人网"></a>
+	</p>
+	<a href="JavaScript:void(0)" class="share">分享<i></i></a>
+	</span>
+	<!--<span id="weixinBtn">
+	<p class="toolbar-ewm" id="weixinBox" style="display:none">
+	<i class="pop-arrow"></i>
+	<span>用微信扫一扫二维码开启</span>
+	<strong><img src="" height="114" width="114"></strong>
+	<span>搜狗图片微信公众号</span>
+	</p>
+	<a href="JavaScript:void(0)" class="follow">微信关注<i></i></a>
+	</span>-->
+	<span id="feedback">
+	<div class="back-box" id="feedbackOver" style="display:none"><i></i>您的反馈提交成功，谢谢！<em class="pop-arrow"></em></div>
+	<div class="feedback-pop" id="feedbackDiv" style="display:none">
+	<s id="feedbackClose"></s><em class="pop-arrow"></em>
+	<h3>反馈内容</h3>
+	<textarea class="feedback_cont" id="feedbackContent">欢迎您提出在使用中遇到的问题或宝贵建议（400字以内），我们将为您做的更好 。</textarea>
+	<h3>联系方式</h3>
+	<input class="feedback_input" type="text" id="feedbackContact" value="请留下您的联系方式，以便我们及时回复您。"/>
+	<a href="javascript:void(0)" id="feedbackSubmit" class="btn-1">提交反馈</a>
+	</div>
+	<a id="feedbackBtn" href="JavaScript:void(0)" class="feedback">反馈<i></i></a>
+	</span>
+	</div>
+	<div class="album-box" id="album">
+	<div class="album-width" id="viewListArea">
+	<div style="width:10000px">
+	<ul id="viewList"></ul>
+	</div>
+	</div>
+	<a href="JavaScript:void(0)" class="album-pev" id="thumbLBtn"><i></i></a>
+	<a href="JavaScript:void(0)" class="album-next" id="thumbRBtn"><i></i></a>
+	</div>
+	</div>
+	</div>
+	<!-- 右侧栏 -->
+	<div class="right-side" id="aside">
+	<div class="side-module side-figure-info" id="commonInfo" style="display:none">
+		<h4>图片信息</h4>
+		<!--<div id="commonInfo">-->
+		<p class="txt-info"><a id="imageTitle" href="#none" target="_blank" uigs="image_title"></a></p>
+		<p class="figure-source"><a id="siteLink" href="#none"  target="_blank" uigs="site_link"></a></p>
+		<div class="figure-info" id="imageInfo"></div>
+		<!--</div>-->
+	</div>
+	<div class="side-module side-figure-info" id="copyrightInfo" style="display:none">
+		<h4>图片信息</h4>
+		<div class="logo-box _copyrightLogo">
+			<a class="copyright-log"><img src=""></a>
+			<p><a href="javascript:void(0)">VEER</a></p>
+		</div>
+
+		<div class="title-cr" id="veerDeclare" style="display: block;">
+			<div class="title-cr-txt">
+				<h4>商业用途请获取版权</h4>
+				<p>?VEER 版权声明
+				<span class="title-cr-decl">
+					<i class="title-cr-decl-icon"></i>
+					<span class="title-cr-decl-content"><i></i>本图片版权归VEER或VEER所代理的著作权人所有，仅限个人基于欣赏、学习、研究目的查看、下载使用，并应注明图片来源VEER。如需用于任何公开媒介或商业用途，请点击“去购买”获取图片授权，否则如造成图片侵权，应承担相应法律责任。</span>
+				</span>
+				</p>
+			</div>
+			<a href="http://www.veer.com/photo/133109052?utm_source=sogou&amp;utm_medium=imagesearch&amp;chid=903" uigs="buy" target="_blank">去购买</a>
+		</div>
+	</div>
+
+
+	<!-- 相似图片 -->
+	<div class="side-module" style="display:none">
+	<h4 id="similarTitle">相似图片<a href="javascript:void(0)" id="similar"></a></h4>
+	<div class="similar-figure" id="similarContent">
+	<ul id="similarContent"></ul>
+	</div>
+	</div>
+
+	<!-- 相关推广 -->
+	<div class="side-module" id="adContent">
+	<h4 id="adTitle">相关推广<a href="javascript:void(0)" id="adBtn"></a></h4>
+	<div class="spread-content" id="adDiv">
+	<div class="iframe-box" id="sogouFrag_1" style="width:250px;height:250px;display:block;margin-bottom:10px;">
+	<script>
+	var sogou_brand_ad_id = 'sogoubrand_position_26';
+	var sogou_brand_ad_width = 250;
+	var sogou_brand_ad_height = 250;
+	</script>
+	<script language="JavaScript" type="text/javascript" src="//galaxy.sogoucdn.com/galaxy/sogouAD.js"></script>
+	</div>
+	<div class="iframe-box" id="sogouFrag_2" style="width:250px;height:250px;display:block;">
+	<script>
+	var sogou_brand_ad_id = 'sogoubrand_position_29';
+	var sogou_brand_ad_width = 250;
+	var sogou_brand_ad_height = 250;
+	</script>
+	<script language="JavaScript" type="text/javascript" src="//galaxy.sogoucdn.com/galaxy/sogouAD.js"></script>
+	</div>
+	</div>
+	</div>
+	</div>
+
+	</div>
+
+	</div>
+
+
+
+
+
+	
+	<!--lyc-->
+	
+
+	<script type="text/javascript">
+		var SugPara = {
+		    "enableSug":true,
+		    "sugType":"pic",
+		    "submitId":"searchBtn",
+		    "domain":"pic.sogou.com",
+		    "postFix":"组图片",
+		    "inputid":"form_querytext",
+		    "revsd":1,
+		    "suggestRid":"05002100",
+		    "normalRid":"05009900",
+		    "needIframe":true,
+		    "useParent":1
+		}
+	</script>
+
+	<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+		var fatalParamList = "&st=255&phu=https%3A%2F%2Fimage.9game.cn%2F2017%2F11%2F26%2F18679589.png&did=5&mode=255";
+		var paras = "";
+		var queryEncodeGbk = "?query=%CB%AE%BC%FD%B9%EA";
+		var urlDid = 5;
+		var initDid = 5;
+		var tc = "";
+		var ts = "";
+		var itemsOnPage = 0;
+		var isMd5Group = false;
+		var isPhd = false;
+		var showShopRecom = false;
+		var uuid = "null";
+		var uigs_para={
+			"uigs_productid":"pic",query:'%CB%AE%BC%FD%B9%EA',
+			"screen_width" : window.screen.width,
+			"screen_height" : window.screen.height,
+			
+			showShopRecom : false,
+			time:"1560689216409",
+			policyType:"0",
+			detail:'1'
+		};
+	</script>
+	
+	<script type="text/javascript" src="/detail_2015_b/js/detail_release.js?rel=20190612"></script>
+	
+	
+<!-- CT -->
+</body>
+</html>
